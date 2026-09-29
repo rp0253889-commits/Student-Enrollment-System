@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Enrollment</label>
+    <pluralLabel>Enrollments</pluralLabel>
+    <nameField>
+        <label>Enrollment Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>ENR-{00000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>Private</sharingModel>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+</CustomObject>
